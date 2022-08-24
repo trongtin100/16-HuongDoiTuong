@@ -38,6 +38,7 @@ function drawRectangle () {
     tinContext.beginPath();
     let xRect = rectangle.getHeight();
     let yRect = rectangle.getWidth();
+    tinContext.fillStyle = "blue"
     tinContext.rect(xRect, yRect, rectangle.getWidth(),rectangle.getHeight());
     tinContext.stroke();
 }
