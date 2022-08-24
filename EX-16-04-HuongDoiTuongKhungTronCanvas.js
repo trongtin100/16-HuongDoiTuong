@@ -35,3 +35,5 @@ function  taonhieuHinhtron(){
     }
 }
 taonhieuHinhtron();
+
+function setInterval
